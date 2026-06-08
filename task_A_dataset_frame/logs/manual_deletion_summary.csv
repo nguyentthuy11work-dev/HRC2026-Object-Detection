@@ -1,0 +1,4 @@
+set_name,kept_count,removed_count,zip_path,contact_sheet
+baseline_600,583,17,task_A_dataset_frame/outputs/archives/frames_selected_600_baseline.zip,task_A_dataset_frame/outputs/contact_sheets/baseline_600_contact_sheet.jpg
+cvat_batch_001,192,8,task_A_dataset_frame/outputs/archives/cvat_batch_001_200.zip,task_A_dataset_frame/outputs/contact_sheets/cvat_batch_001_contact_sheet.jpg
+hard_cases,103,17,,task_A_dataset_frame/outputs/contact_sheets/hard_case_candidates_contact_sheet.jpg

@@ -1,0 +1,13 @@
+metric,value
+jpg_count,19200
+manifest_rows,19200
+duplicate_frame_ids,0
+missing_output_files,0
+short_head_left_file000_frames,5856
+short_head_left_file001_frames,5856
+short_head_left_file002_frames,5856
+short_head_left_file003_frames,1632
+episode_min,0
+episode_max,999
+source_frame_min,0
+source_frame_max,58550

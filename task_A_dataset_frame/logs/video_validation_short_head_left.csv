@@ -1,0 +1,5 @@
+source_id,video_file,has_moov,has_mdat,width,height,frame_count,duration_seconds,fps_est,episode_start,episode_end,expected_extract_3fps_frames,validation_status,notes
+short_head_left_file000,file-000.mp4,True,True,640,480,58560,1952.0,30.0,0,304,5856,container_metadata_valid,pixel decode pending
+short_head_left_file001,file-001.mp4,True,True,640,480,58560,1952.0,30.0,305,609,5856,container_metadata_valid,pixel decode pending
+short_head_left_file002,file-002.mp4,True,True,640,480,58560,1952.0,30.0,610,914,5856,container_metadata_valid,pixel decode pending
+short_head_left_file003,file-003.mp4,True,True,640,480,16320,544.0,30.0,915,999,1632,container_metadata_valid,pixel decode pending
