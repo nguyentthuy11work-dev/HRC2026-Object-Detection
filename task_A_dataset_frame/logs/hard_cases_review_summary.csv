@@ -1,0 +1,2 @@
+review_set,original_count,retained_count,removed_count,review_folder,updated_manifest
+hard_cases_review,103,72,31,task_A_dataset_frame/outputs/frames_selected/hard_cases_review/,task_A_dataset_frame/manifests/hard_cases_manifest.csv
