@@ -32,15 +32,6 @@ HRC2026-Object-Detection/
 
 Task B (label trong CVAT) do Đoàn phụ trách — output là `data/label/yolo_dataset_v1/`.
 
-## Trạng thái hiện tại
-
-| Task | Người | Output | Trạng thái |
-|---|---|---|---|
-| A — Dataset / Frame | Trung | 19,200 raw frames + 583 baseline + 192 CVAT batch | Round-1 done |
-| B — Label / CVAT | Đoàn | `data/label/yolo_dataset_v1/` (train 460 / val 57 / test 59) | Round-1 done |
-| C — Train / Benchmark | Huy | 6 model trained, winner = yolo11n_aug_imgsz960 | Round-2 done |
-| D — PM | Đào | — | Chưa bắt đầu trong repo |
-
 ## Kết quả train (Round-2, test split 59 ảnh / 191 vật)
 
 | Model | mAP@50 | mAP@50-95 | Latency | Ghi chú |
