@@ -1,0 +1,12 @@
+batch: 16
+data: ../yolo_dataset_v1/data.yaml
+device: 0
+epochs: 1
+imgsz: 640
+model: yolo11n.pt
+name: yolo11n_smoke
+optimizer: auto
+patience: 20
+project: runs
+seed: 0
+workers: 0

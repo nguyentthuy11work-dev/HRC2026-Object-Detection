@@ -1,7 +1,10 @@
+# Resolved relative to this file's parent directory by Ultralytics.
+# Portable across local Windows and remote Linux server — no absolute path.
+path: .
 train: images/train
 val: images/val
 test: images/test
 
-nc: 2
-
-names: ['part_a', 'part_b']
+names:
+  0: part_a
+  1: part_b

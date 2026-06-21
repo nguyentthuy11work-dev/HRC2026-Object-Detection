@@ -1,0 +1,23 @@
+# Ultralytics runtime output
+runs/
+
+# Trained weights (sync from Slurm server when needed)
+weights/**/*.pt
+weights/**/*.onnx
+weights/**/*.engine
+
+# Pretrained checkpoints auto-downloaded by Ultralytics
+/*.pt
+
+# Slurm logs (large, rebuilt per run)
+slurm/logs/*.out
+slurm/logs/*.err
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local env
+.venv/
+venv/

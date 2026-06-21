@@ -1,0 +1,12 @@
+name: yolo11n_baseline
+model: yolo11n.pt
+data: ../yolo_dataset_v1/data.yaml
+imgsz: 640
+epochs: 100
+batch: 16
+patience: 20
+seed: 0
+device: 0
+project: runs
+optimizer: auto
+workers: 0

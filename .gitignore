@@ -216,3 +216,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- HRC2026 project-specific ----
+
+# Stray dataset duplicate at repo root (canonical lives at data/label/yolo_dataset_v1/)
+/yolo_dataset_v1/
+
+# Task A — large frame outputs (kept locally, not pushed)
+task_A_dataset_frame/outputs/frames_raw/
+task_A_dataset_frame/outputs/frames_selected/
+task_A_dataset_frame/outputs/archives/
+task_A_dataset_frame/outputs/contact_sheets/
+task_A_dataset_frame/logs/video_decode_samples/
+
+# Task C — handled by task_C_train_benchmark/.gitignore, but belt-and-suspenders here
+task_C_train_benchmark/runs/
+task_C_train_benchmark/weights/**/*.pt
+task_C_train_benchmark/*.pt
+task_C_train_benchmark/slurm/logs/*.out
+task_C_train_benchmark/slurm/logs/*.err
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+#agentcode
+CLAUDE.md 
+HISTORY.md 
